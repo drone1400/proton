@@ -16,6 +16,7 @@ RTSimpleApp/media/interface/*.rtfont
 RTSimpleApp/bin/
 shared/win/utils/log.txt
 .vs
+.idea
 *.tlog
 *.log
 *.recipe
