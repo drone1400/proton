@@ -278,7 +278,7 @@
     <Link>
       <AdditionalDependencies>opengl32.lib;fmod_vc.lib;zdll.lib;wsock32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>..\..\shared\win\lib;..\..\shared\win\audiere\lib;..\..\shared\win\fmodstudio\api\lowlevel\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\shared\win\lib;..\..\shared\win\audiere\lib;..\..\shared\win\fmodstudio\api\core\lib\x86%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)RTSimpleApp.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
@@ -366,7 +366,7 @@
     <Link>
       <AdditionalDependencies>opengl32.lib;fmod_vc.lib;zdll.lib;wsock32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>..\..\shared\win\lib;..\..\shared\win\fmod\api\lib;..\..\shared\win\audiere\lib;..\..\shared\win\fmodstudio\api\lowlevel\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\shared\win\lib;..\..\shared\win\fmod\api\lib;..\..\shared\win\audiere\lib;..\..\shared\win\fmodstudio\api\core\lib\x86%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
